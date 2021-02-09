@@ -177,7 +177,7 @@ const convertRGBtoHEX = (r) =>{
 
 //Main
 //Variables
-let value = "254, 23, 0";
+let value = prompt("Enter your color code of the type RGB: XXX,XXX,XXX; or of the type HEX: #XXXXXX: ");
 let type = identifyType(value);
 let convertedValue = convert(type, capitalizeLetters(breakdownIntoChars(value)));
-console.log(convertedValue);
+prompt(convertedValue);
